@@ -4,31 +4,53 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width , initial-scale=1.0" />
+    <link rel="stylesheet" href="/goit-markup-hw-02/css/styles.css" />
+
     <title>Portfolio</title>
+    <style>
+      body {
+        font-family: "Roboto", sans-serif;
+      }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
-      <a href="#"><span>Web</span>Studio</a>
+      <a href="/goit-markup-hw-01/index.html"
+        ><span class="blue">Web</span><span class="logo">Studio</span></a
+      >
       <nav>
         <menu>
-          <li><a href="./goit-markup-hw-01/index.html">Agencja</a></li>
-          <li><a href="./goit-markup-hw-02/portfolio.html">Portfolio</a></li>
-          <li><a href="#">Kontakt</a></li>
+          <li><a href="#" class="menu-links">Agencja</a></li>
+          <li>
+            <a href="/goit-markup-hw-02/portfolio.html" class="menu-links-two"
+              >Portfolio</a
+            >
+          </li>
+          <li><a href="#" class="menu-links-three">Kontakty</a></li>
         </menu>
       </nav>
-      <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-      <a href="tel:48111111111">+48 111 111 111</a>
+      <a href="mailto:info@devstudio.com" class="header-link"
+        >info@devstudio.com</a
+      >
+      <a href="tel:48111111111" class="header-link">+48 111 111 111</a>
     </header>
     <main>
-      <div class="buttons-menu">
-        <ul>
-          <li><button type="button">Wszystkie</button></li>
-          <li><button type="button">Strony</button></li>
-          <li><button type="button">Aplikacje</button></li>
-          <li><button type="button">Dizajn</button></li>
-          <li><button type="button">Marketing</button></li>
-        </ul>
-      </div>
+      <ul>
+        <li>
+          <button type="button" class="buttons">Wszystkie</button>
+        </li>
+        <li><button type="button" class="buttons">Strony</button></li>
+        <li><button type="button" class="buttons">Aplikacje</button></li>
+        <li><button type="button" class="buttons">Dizajn</button></li>
+        <li><button type="button" class="buttons">Marketing</button></li>
+      </ul>
+
       <ul>
         <li>
           <figure>
@@ -39,8 +61,8 @@
               height="294"
             />
             <figcaption>
-              <b>Technocrack</b> <br />
-              Strona Internetowa
+              <p1>Technocrack</p1> <br />
+              <p2>Strona Internetowa</p2>
             </figcaption>
           </figure>
         </li>
@@ -53,8 +75,8 @@
               height="294"
             />
             <figcaption>
-              <b>Grafika new Orlean vs Golden Star</b><br />
-              Dizajn
+              <p1>Grafika new Orlean vs Golden Star</p1><br />
+              <p2>Dizajn</p2>
             </figcaption>
           </figure>
         </li>
@@ -67,8 +89,8 @@
               height="294"
             />
             <figcaption>
-              <b>Restauracja Seafood</b><br />
-              Aplikacja
+              <p1>Restauracja Seafood</p1><br />
+              <p2>Aplikacja</p2>
             </figcaption>
           </figure>
         </li>
@@ -81,8 +103,8 @@
               height="294"
             />
             <figcaption>
-              <b>Projekt Prime</b><br />
-              Marketing
+              <p1>Projekt Prime</p1><br />
+              <p2>Marketing</p2>
             </figcaption>
           </figure>
         </li>
@@ -95,8 +117,8 @@
               height="294"
             />
             <figcaption>
-              <b>Projekt Boxes</b><br />
-              Aplikacja
+              <p1>Projekt Boxes</p1><br />
+              <p2>Aplikacja</p2>
             </figcaption>
           </figure>
         </li>
@@ -109,8 +131,8 @@
               height="294"
             />
             <figcaption>
-              <b>Inspiration has no Borders</b><br />
-              Strona internetowa
+              <p1>Inspiration has no Borders</p1><br />
+              <p2>Strona internetowa</p2>
             </figcaption>
           </figure>
         </li>
@@ -123,8 +145,8 @@
               height="294"
             />
             <figcaption>
-              <b>Magazyn Limited Edition</b><br />
-              Dizajn
+              <p1>Magazyn Limited Edition</p1><br />
+              <p2>Dizajn</p2>
             </figcaption>
           </figure>
         </li>
@@ -137,8 +159,8 @@
               height="294"
             />
             <figcaption>
-              <b>Projekt LAB</b><br />
-              Marketing
+              <p1>Projekt LAB</p1><br />
+              <p2>Marketing</p2>
             </figcaption>
           </figure>
         </li>
@@ -151,19 +173,30 @@
               height="294"
             />
             <figcaption>
-              <b>Growing Business</b><br />
-              Aplikacja
+              <p1>Growing Business</p1><br />
+              <p2>Aplikacja</p2>
             </figcaption>
           </figure>
         </li>
       </ul>
     </main>
     <footer>
-      <a href="#"><span>Web</span>Studio</a>
+      <a href="/goit-markup-hw-01/index.html">
+        <span class="blue">Web</span><span class="logo">Studio</span></a
+      >
       <address>
-        m. Warszawa, Aleje Jerozolimskie 21<br />
-        <a href="mailto:info@example.com">info@example.com</a><br />
-        <a href="tel:48111111111">+48 111 111 111</a>
+        <p>m. Warszawa, Aleje Jerozolimskie 21</p>
+        <br />
+
+        <span class="email-underline"
+          ><a class="buttons" href="mailto:info@example.com"
+            >info@example.com</a
+          ></span
+        >
+
+        <br />
+
+        <a class="buttons" href="tel:48111111111">+48 111 111 111</a>
       </address>
     </footer>
   </body>
