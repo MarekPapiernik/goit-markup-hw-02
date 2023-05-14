@@ -1,16 +1,12 @@
 .buttons:hover,
 .buttons:focus {
-  background: #2196f3;
-  color: #ffffff;
+  background: var(--brand-blue);
+  color: var(--background-color);
   cursor: pointer;
   line-height: 1.6;
   font-weight: 500;
 }
 .buttons {
-  width: 121px;
-  height: 38px;
-  left: 510px;
-  top: 174px;
   font-weight: 500;
   line-height: 1.6;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -19,17 +15,11 @@ body {
   --font-color: #212121;
   --background-color: #ffffff;
   --font-family: "Roboto", sans-serif;
-}
-.webstudio {
-  line-height: 1.17;
+  --brand-blue: #2196f3;
+  --gray-color: #757575;
 }
 .blue {
-  color: #2196f3;
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 24px;
-
+  color: var(--brand-blue);
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
@@ -53,8 +43,19 @@ body {
   /* identical to box height */
   letter-spacing: 0.03em;
 }
+.logo-white {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.9;
+
+  /* identical to box height */
+  letter-spacing: 0.03em;
+
+  color: var(--background-color);
+}
 p {
-  color: #ffffff;
+  color: var(--background-color);
 }
 footer {
   height: 252px;
@@ -80,8 +81,7 @@ a {
   font-size: 14px;
   line-height: 1.17;
   letter-spacing: 0.02em;
-
-  color: #212121;
+  color: var(--font-color);
 }
 .menu-links-two {
   width: 58px;
@@ -94,7 +94,7 @@ a {
   line-height: 1.17;
   letter-spacing: 0.02em;
 
-  color: #2196f3;
+  color: var(--brand-blue);
 }
 
 .header-link {
@@ -108,7 +108,7 @@ a {
   line-height: 1.17;
   letter-spacing: 0.02em;
 
-  color: #757575;
+  color: var(--gray-color);
 }
 p1 {
   font-weight: 700;
@@ -117,8 +117,6 @@ p1 {
 
   /* identical to box height, or 200% */
   letter-spacing: 0.06em;
-
-  color: #212121;
 }
 p2 {
   font-size: 16px;
@@ -127,7 +125,26 @@ p2 {
   /* identical to box height, or 188% */
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--gray-color);
+}
+p3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+p4 {
+  font-size: 16px;
+  line-height: 1.2;
+
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--gray-color);
 }
 .email-underline {
   text-decoration: underline;
@@ -143,8 +160,7 @@ p2 {
   font-size: 14px;
   line-height: 1.17;
   letter-spacing: 0.02em;
-
-  color: #212121;
+  color: var(--font-color);
 }
 .menu-index {
   width: 53px;
@@ -157,7 +173,7 @@ p2 {
   line-height: 1.17;
   letter-spacing: 0.02em;
 
-  color: #2196f3;
+  color: var(--brand-blue);
 }
 .menu-index-two {
   left: 0%;
@@ -169,8 +185,7 @@ p2 {
   font-size: 14px;
   line-height: 1.17;
   letter-spacing: 0.02em;
-
-  color: #212121;
+  color: var(--font-color);
 }
 .menu-index-three {
   width: 51px;
@@ -182,8 +197,7 @@ p2 {
   font-size: 14px;
   line-height: 1.17;
   letter-spacing: 0.02em;
-
-  color: #212121;
+  color: var(--font-color);
 }
 .header-index {
   width: 1600px;
@@ -208,7 +222,7 @@ p2 {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
-  color: #ffffff;
+  color: var(--background-color);
 }
 .index-button:hover,
 .index-button:focus {
@@ -219,10 +233,10 @@ p2 {
   left: 700px;
   top: 430px;
 
-  background: #2196f3;
+  background: var(--brand-blue);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  color: #ffffff;
+  color: var(--background-color);
 }
 .index-button {
   width: 200px;
@@ -230,11 +244,61 @@ p2 {
   left: 700px;
   top: 430px;
 
-  background: #2196f3;
+  background: var(--brand-blue);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
-  color: #ffffff;
+  color: var(--background-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+}
+.lorem {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.ipsum {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+
+  /* or 171% */
+  letter-spacing: 0.03em;
+
+  color: var(--gray-color);
+}
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.blue-index {
+  color: var(--brand-blue);
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 2157px;
+
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+
+  /* identical to box height */
+  letter-spacing: 0.03em;
+}
+li {
+  list-style-type: none;
+}
+.blue-email {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+
+  color: var(--brand-blue);
 }
