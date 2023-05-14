@@ -228,6 +228,20 @@ p4 {
   line-height: 1.17;
   letter-spacing: 0.02em;
 
+  color: var(--font-color);
+}
+.menu-index:hover,
+.menu-index:focus {
+  width: 53px;
+  height: 16px;
+  left: 453px;
+  top: 32px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+
   color: var(--brand-blue);
 }
 .menu-index-two {
@@ -242,6 +256,19 @@ p4 {
   letter-spacing: 0.02em;
   color: var(--font-color);
 }
+.menu-index-two:hover,
+.menu-index-two:focus {
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  color: var(--brand-blue);
+}
 .menu-index-three {
   width: 51px;
   height: 16px;
@@ -253,6 +280,19 @@ p4 {
   line-height: 1.17;
   letter-spacing: 0.02em;
   color: var(--font-color);
+}
+.menu-index-three:hover,
+.menu-index-three:focus {
+  width: 51px;
+  height: 16px;
+  left: 656px;
+  top: 32px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  color: var(--brand-blue);
 }
 .header-index {
   width: 1600px;
@@ -348,12 +388,4 @@ h2 {
 }
 li {
   list-style-type: none;
-}
-.blue-email {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-
-  color: var(--brand-blue);
 }
