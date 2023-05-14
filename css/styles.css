@@ -162,6 +162,20 @@ a {
 
   color: var(--gray-color);
 }
+.header-link:hover,
+.header-link:focus {
+  width: 135px;
+  height: 16px;
+  left: 1078px;
+  top: 32px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+
+  color: var(--brand-blue);
+}
 p1 {
   font-weight: 700;
   font-size: 18px;
