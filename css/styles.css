@@ -70,7 +70,7 @@ a {
   line-height: 1.7;
   text-decoration: none;
 }
-.menu-links {
+.menu-links:hover {
   width: 58px;
   height: 16px;
   left: 453px;
@@ -83,7 +83,7 @@ a {
   letter-spacing: 0.02em;
   color: var(--font-color);
 }
-.menu-links-two {
+.menu-links-two:hover {
   width: 58px;
   height: 16px;
   left: 552px;
@@ -96,7 +96,18 @@ a {
 
   color: var(--brand-blue);
 }
+.menu-links-three:hover {
+  width: 58px;
+  height: 16px;
+  left: 656px;
+  top: 32px;
 
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  color: var(--font-color);
+}
 .header-link {
   width: 135px;
   height: 16px;
@@ -150,18 +161,7 @@ p4 {
   text-decoration: underline;
   color: rgba(255, 255, 255, 0.6);
 }
-.menu-links-three {
-  width: 58px;
-  height: 16px;
-  left: 656px;
-  top: 32px;
 
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.17;
-  letter-spacing: 0.02em;
-  color: var(--font-color);
-}
 .menu-index {
   width: 53px;
   height: 16px;
